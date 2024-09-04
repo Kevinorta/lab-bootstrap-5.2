@@ -1,4 +1,8 @@
 /* Add custom css styles here */
+*{
+    margin:0;
+    padding:0;
+}
 header{
     height:400px;
     text-align:center;
@@ -19,4 +23,33 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.about{
+    margin-top:10%;
+    background-color: #F8F9FA;
+    padding:2em;
+}
+
+.about-content div{
+    /* height:auto; */
+    /* max-height: 300px; */
+    /* width:100%; */
+    /* padding-top:2em; */
+}
+
+.about img{
+    /* padding:20px; */
+    max-height:150px;
+    width:auto;
+}
+
+.about-text{
+    /* background-color: #056DFD; */
+    /* padding:0 10px; */
+}
+footer{
+    background-color: #056DFD;
+    text-align: center;
+    color:white;
+    padding: 2em;
 }
